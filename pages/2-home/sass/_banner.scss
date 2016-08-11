@@ -1,0 +1,45 @@
+.hero {
+  $large-screen: 50em !default;
+  align-items: center;
+  @include background-image(url("http://www.charliesairconditioningandheating.com/wp-content/uploads/2015/05/Vladislav-Kochelaevs.jpg"));
+  background-position: right;
+  background-size: none;
+  display: flex;
+  justify-content: center;
+  min-height: 25em;
+  padding: 2em;
+
+  @include media($large-screen) {
+    background-position: left;
+    background-size: cover;
+    justify-content: flex-end;
+  }
+
+  .hero-content {
+    max-width: 20em;
+    text-align: center;
+
+    p {
+      text-align: center;
+      font-weight: 900;
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+
+    span {
+      text-align: justify;
+      font-size: 1em;
+      margin-top: 1px; 
+    }
+
+    @include media($large-screen) {
+      text-align: left;
+    }
+  }
+
+  .hero-logo {
+    margin: auto;
+    // border: solid black 1px;
+    border-radius: 10px;
+  }
+}

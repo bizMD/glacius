@@ -1,0 +1,23 @@
+{
+  "name": "glacius",
+  "version": "0.0.1",
+  "description": "A front end website for Aircotek Appliance Services",
+  "main": "server.coffee",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Rene Calunsag Jr",
+  "license": "MIT",
+  "devDependencies": {
+    "coffee-script": "^1.10.0",
+    "coffeeify": "^2.0.1"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "jquery": "^3.1.0",
+    "marko": "^3.9.2",
+    "restify": "^4.1.1",
+    "socketio": "^1.0.0",
+    "sugar": "^2.0.1"
+  }
+}
